@@ -1,0 +1,51 @@
+.container {
+    background-color: bisque;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+    
+}
+.traffic-light {
+    width: 200px;
+    height: 400px;
+    background-color: rgb(6, 6, 6);
+    border-radius: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.info {
+    width: 200px;
+    height: 400px;
+    background-color: rgb(224, 116, 116);
+    border-radius: 20%;
+}
+.info::after {
+    content: attr(data-value);
+    position: relative;
+    left: 40px;
+    top: 150px;
+    font-size: 80px;
+    
+}
+.fa-light {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background-color: rgb(98, 84, 84);
+    cursor: pointer;
+}
+.red {
+    background-color: red;
+}
+.yellow {
+    background-color: yellow;
+}
+.green {
+    background-color: green;
+}
