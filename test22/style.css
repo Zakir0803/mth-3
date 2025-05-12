@@ -1,0 +1,10 @@
+.box {
+    width: 150px;
+    height: 150px;
+    background-color: lightgray;
+    margin-bottom: 10px;
+}
+
+.colored {
+    background-color: lightblue;
+}
